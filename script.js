@@ -29,10 +29,10 @@ btn.addEventListener('click', function(){
 
 eBtn.style.display = 'none'
 
-inputRange.addEventListener('input', function(){
-    rangeSpan.textContent = event.target.value
-    square.style.height = event.target.value + '%'
-    square.style.width = event.target.value + '%'
+inputRange.addEventListener('input', function(e){
+    rangeSpan.textContent = e.target.value
+    square.style.height = e.target.value + '%'
+    square.style.width = e.target.value + '%'
 })
 
 
