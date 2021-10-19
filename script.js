@@ -35,5 +35,7 @@ inputRange.addEventListener('input', function(e){
     square.style.width = e.target.value + '%'
 })
 
+console.log(inputRange)
+
 
 
